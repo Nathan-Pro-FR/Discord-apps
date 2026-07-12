@@ -18,3 +18,9 @@ expertMode = true
 [postMerge]
 path = "scripts/post-merge.sh"
 timeoutMs = 20000
+
+[userenv]
+
+[userenv.shared]
+CRON_SCHEDULE = "0 * * * *"
+LINK_TEMPLATE = "https://example.com/redeem/{code}/example"
